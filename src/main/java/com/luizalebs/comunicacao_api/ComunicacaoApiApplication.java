@@ -1,5 +1,6 @@
 package com.luizalebs.comunicacao_api;
 
+
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
