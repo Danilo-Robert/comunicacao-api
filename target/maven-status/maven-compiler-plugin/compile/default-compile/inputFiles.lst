@@ -6,8 +6,12 @@ C:\Users\Danilo\Desktop\Projetos\comunicacao_api\src\main\java\com\luizalebs\com
 C:\Users\Danilo\Desktop\Projetos\comunicacao_api\src\main\java\com\luizalebs\comunicacao_api\infraestructure\exceptions\ResourceNotFoundException.java
 C:\Users\Danilo\Desktop\Projetos\comunicacao_api\src\main\java\com\luizalebs\comunicacao_api\api\dto\ComunicacaoOutDTO.java
 C:\Users\Danilo\Desktop\Projetos\comunicacao_api\src\main\java\com\luizalebs\comunicacao_api\business\service\ComunicacaoService.java
+C:\Users\Danilo\Desktop\Projetos\comunicacao_api\src\main\java\com\luizalebs\comunicacao_api\business\service\NotificacaoService.java
 C:\Users\Danilo\Desktop\Projetos\comunicacao_api\src\main\java\com\luizalebs\comunicacao_api\infraestructure\enums\ModoEnvioEnum.java
+C:\Users\Danilo\Desktop\Projetos\comunicacao_api\src\main\java\com\luizalebs\comunicacao_api\infraestructure\clients\NotificacaoDTO.java
 C:\Users\Danilo\Desktop\Projetos\comunicacao_api\src\main\java\com\luizalebs\comunicacao_api\infraestructure\enums\StatusEnvioEnum.java
+C:\Users\Danilo\Desktop\Projetos\comunicacao_api\src\main\java\com\luizalebs\comunicacao_api\infraestructure\exceptions\BusinessException.java
 C:\Users\Danilo\Desktop\Projetos\comunicacao_api\src\main\java\com\luizalebs\comunicacao_api\ComunicacaoApiApplication.java
 C:\Users\Danilo\Desktop\Projetos\comunicacao_api\src\main\java\com\luizalebs\comunicacao_api\infraestructure\exceptions\IllegalArgumentException.java
+C:\Users\Danilo\Desktop\Projetos\comunicacao_api\src\main\java\com\luizalebs\comunicacao_api\infraestructure\clients\NotificacaoClient.java
 C:\Users\Danilo\Desktop\Projetos\comunicacao_api\src\main\java\com\luizalebs\comunicacao_api\api\GlobalExceptionHandler.java

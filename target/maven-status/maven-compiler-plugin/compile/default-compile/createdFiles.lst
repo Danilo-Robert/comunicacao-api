@@ -1,12 +1,16 @@
 com\luizalebs\comunicacao_api\api\GlobalExceptionHandler.class
 com\luizalebs\comunicacao_api\business\mapper\ComunicacaoConverter.class
 com\luizalebs\comunicacao_api\infraestructure\exceptions\IllegalArgumentException.class
+com\luizalebs\comunicacao_api\infraestructure\clients\NotificacaoClient.class
 com\luizalebs\comunicacao_api\infraestructure\repositories\ComunicacaoRepository.class
 com\luizalebs\comunicacao_api\api\dto\ComunicacaoOutDTO$ComunicacaoOutDTOBuilder.class
 com\luizalebs\comunicacao_api\api\dto\ComunicacaoOutDTO.class
+com\luizalebs\comunicacao_api\business\service\NotificacaoService.class
 com\luizalebs\comunicacao_api\business\service\ComunicacaoService.class
 com\luizalebs\comunicacao_api\ComunicacaoApiApplication.class
 com\luizalebs\comunicacao_api\infraestructure\entities\ComunicacaoEntity.class
+com\luizalebs\comunicacao_api\infraestructure\clients\NotificacaoDTO$NotificacaoDTOBuilder.class
+com\luizalebs\comunicacao_api\infraestructure\clients\NotificacaoDTO.class
 com\luizalebs\comunicacao_api\infraestructure\enums\ModoEnvioEnum.class
 com\luizalebs\comunicacao_api\infraestructure\entities\ComunicacaoEntity$ComunicacaoEntityBuilder.class
 com\luizalebs\comunicacao_api\api\ComunicacaoController.class
@@ -15,3 +19,4 @@ com\luizalebs\comunicacao_api\infraestructure\exceptions\ResourceNotFoundExcepti
 com\luizalebs\comunicacao_api\business\mapper\ComunicacaoConverterImpl.class
 com\luizalebs\comunicacao_api\api\dto\ComunicacaoInDTO$ComunicacaoInDTOBuilder.class
 com\luizalebs\comunicacao_api\infraestructure\enums\StatusEnvioEnum.class
+com\luizalebs\comunicacao_api\infraestructure\exceptions\BusinessException.class
