@@ -1,0 +1,54 @@
+package com.luizalebs.comunicacao_api.business.mapper;
+
+import com.luizalebs.comunicacao_api.api.dto.ComunicacaoInDTO;
+import com.luizalebs.comunicacao_api.api.dto.ComunicacaoOutDTO;
+import com.luizalebs.comunicacao_api.infraestructure.entities.ComunicacaoEntity;
+import javax.annotation.processing.Generated;
+import org.springframework.stereotype.Component;
+
+@Generated(
+    value = "org.mapstruct.ap.MappingProcessor",
+    date = "2025-11-14T23:22:46-0300",
+    comments = "version: 1.5.3.Final, compiler: javac, environment: Java 17.0.16 (Azul Systems, Inc.)"
+)
+@Component
+public class ComunicacaoConverterImpl implements ComunicacaoConverter {
+
+    @Override
+    public ComunicacaoEntity paraComunicacaoEntity(ComunicacaoInDTO dto) {
+        if ( dto == null ) {
+            return null;
+        }
+
+        ComunicacaoEntity.ComunicacaoEntityBuilder comunicacaoEntity = ComunicacaoEntity.builder();
+
+        comunicacaoEntity.dataHoraEnvio( dto.getDataHoraEnvio() );
+        comunicacaoEntity.nomeDestinatario( dto.getNomeDestinatario() );
+        comunicacaoEntity.emailDestinatario( dto.getEmailDestinatario() );
+        comunicacaoEntity.telefoneDestinatario( dto.getTelefoneDestinatario() );
+        comunicacaoEntity.mensagem( dto.getMensagem() );
+        comunicacaoEntity.modoDeEnvio( dto.getModoDeEnvio() );
+        comunicacaoEntity.statusEnvio( dto.getStatusEnvio() );
+
+        return comunicacaoEntity.build();
+    }
+
+    @Override
+    public ComunicacaoOutDTO paraDTO(ComunicacaoEntity entity) {
+        if ( entity == null ) {
+            return null;
+        }
+
+        ComunicacaoOutDTO.ComunicacaoOutDTOBuilder comunicacaoOutDTO = ComunicacaoOutDTO.builder();
+
+        comunicacaoOutDTO.dataHoraEnvio( entity.getDataHoraEnvio() );
+        comunicacaoOutDTO.nomeDestinatario( entity.getNomeDestinatario() );
+        comunicacaoOutDTO.emailDestinatario( entity.getEmailDestinatario() );
+        comunicacaoOutDTO.telefoneDestinatario( entity.getTelefoneDestinatario() );
+        comunicacaoOutDTO.mensagem( entity.getMensagem() );
+        comunicacaoOutDTO.modoDeEnvio( entity.getModoDeEnvio() );
+        comunicacaoOutDTO.statusEnvio( entity.getStatusEnvio() );
+
+        return comunicacaoOutDTO.build();
+    }
+}
